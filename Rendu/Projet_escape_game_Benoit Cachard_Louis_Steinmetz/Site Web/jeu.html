@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Leaflet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=cairo:300" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+     integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+     crossorigin=""/>
+    <link rel="icon" type="image/png" href="logos_escape/icon_site.png" />
+    <title>Escape Game</title>
+</head>
+<body>
+    <div id="jeu">
+        <h1>Escape Game Géographique des Sports Extrêmes</h1>
+
+        <!-- inventaire -->
+        <div id="inventory">
+            <div id="temps">temps :</div>
+            <div id="timer"></div>
+            <p id="title">Objets collectés :</p>
+            <p id="objet1"></p>
+            <p id="objet2"></p>
+            <p id="objet3"></p>
+            <p id="objet4"></p>
+            <p id="objet5"></p>
+            <p id="objet6"></p>
+            <p id="objet7"></p>
+            <p id="objet8"></p>
+            <p id="objet9"></p>
+            <p id="objet10"></p>
+            <p id="objet11"></p>
+            <p id="objet12"></p>
+            <p id="objet13"></p>
+            <p id="objet14"></p>
+            <p id="objet15"></p>
+            <p id="objet16"></p>
+            <p hidden id="objet17"></p>
+            <p hidden id="objet18"></p>
+            <p hidden id="objet19"></p>
+            <p hidden id="objet20"></p>
+            <p hidden id="objet21"></p>
+        </div>
+
+
+        <!-- Map -->
+        <div id="map"></div>
+    
+        <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+         integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+         crossorigin="">
+        </script>
+
+
+        <footer id="footer">Benoit Cachard et Louis Steinmetz</footer>
+
+        <script src="carte.js"></script>
+    </div>
+
+</body>
+</html>

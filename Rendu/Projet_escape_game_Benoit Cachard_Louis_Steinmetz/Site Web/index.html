@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Leaflet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=cairo:300" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="logos_escape/icon_site.png" />
+    <title>Page d'acceuil</title>
+</head>
+<body>
+    <div id="index">
+        <h1>Bienvenue dans l'escape game géographique des Sports Extrêmes</h1>
+        <div id="formulaire_pseudo">
+            <label for="pseudo">ENTREZ VOTRE PSEUDO (maximum 20 charactères) :</label>
+            <input type="text" placeholder="votre pseudo" id="pseudo" required minlength="1" maxlength="20" size="25">
+        </div>
+        <div id="bouton_acces">
+            <button type="button" onclick="getValue();">Accéder au jeu</button>
+        </div>
+
+        <footer>Benoit Cachard et Louis Steinmetz</footer>
+
+        <script src="intro.js"></script>
+    </div>
+</body>
+</html>
